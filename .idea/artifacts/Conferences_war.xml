@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Conferences:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Conferences</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Conferences-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Conferences:war exploded" />
+    </root>
+  </artifact>
+</component>
